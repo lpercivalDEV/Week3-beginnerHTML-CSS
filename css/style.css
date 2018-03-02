@@ -1,0 +1,429 @@
+
+
+html {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "heveltica", sans-serif;
+  margin: 0;
+}
+
+footer {
+  clear:both;
+}
+
+header {
+  background: url("../images/background-food.jpg") center no-repeat;
+  background-size: cover;
+  color: white;
+  font-weight: bold;
+  height: 600px;
+}
+
+header a {
+  color: white;
+}
+
+/* section {
+  border: 1px solid black;
+} */
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+/*****************************************************************************************
+=====================================CLASSES==============================================
+*****************************************************************************************/
+
+.browse {
+  background-color: rgb(245, 245, 250);
+  text-align: center;
+}
+
+.browse h3 {
+  color: rgb(211, 35, 35);
+}
+
+.browse li {
+  display: inline-block;
+}
+
+.browse ul {
+  padding: 0;
+}
+
+.categories {
+  display: inline-block;
+  height: 120px;
+  width: 240px;
+  margin-right: 20px;
+}
+
+.categories a {
+  color: rgb(0, 0, 0);
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.cat1{
+  background: url("../images/categories-restaurants.png") center no-repeat;
+}
+
+.cat2{
+  background: url("../images/categories-shopping.png") center no-repeat;
+}
+
+.cat3{
+  background: url("../images/categories-nightlife.png") center no-repeat;
+}
+
+.cat4{
+  background: url("../images/categories-active-life.png") center no-repeat;
+}
+
+.cat1,
+.cat2,
+.cat3,
+.cat4 {
+  background-color: white;
+  background-size: contain;
+  margin-left: 75px;
+  height: 80px;
+  width: 80px;
+}
+
+.cities {
+  text-align: center;
+}
+
+.cities a {
+  color: black;
+}
+
+.cities h1 {
+  color: rgb(211, 35, 35);
+}
+
+.cities li {
+  display: inline;
+}
+
+.fa-bars {
+  float: left;
+  font-size: 28px;
+  padding: 5px;
+}
+
+.fa-search {
+  font-size: 23px;
+  font-weight: normal;
+}
+
+.headerL {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 600px;
+}
+
+.logo {
+  height: auto;
+  width: 160px;
+  padding-left: 187px;
+  padding-top: 140px;
+  margin-bottom: 50px;
+}
+
+.newBiz {
+  width: 85%;
+  margin-left: 8%;
+}
+
+.newBiz h2 {
+  color: rgb(211, 35, 35);
+  text-align: center;
+}
+
+.newBiz{
+  color: rgb(0, 115, 193);
+  display: inline-block;
+  font-weight: bold;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.newBiz ul {
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-layer {
+}
+
+.photo-credit {
+  text-align: center;
+  width: 10%;
+  padding-top: 150px;
+  padding-left: 45%;
+}
+
+.photo-by {
+  font-weight: normal;
+}
+
+.restaurants {
+  display: inline-block;
+  width: 300px;
+  margin: 0 15px;
+}
+
+.restaurants h4 {
+  color: rgb(0, 115, 193);
+  /* margin-left: 20px; */
+}
+
+/* .restaurants li {
+  margin-left: 20px;
+} */
+
+.restaurants li:nth-of-type(4) {
+  color: rgb(241, 92, 0);
+  margin-bottom: 5px;
+}
+
+.restaurants:nth-of-type(1) {
+  margin-left: 7%;
+}
+
+.pic1,
+.pic2,
+.pic3 {
+  height: 180px;
+  width: 100%;
+  /* margin: 0 20px; */
+}
+
+.pic1{
+  background: url("../images/kor-tor-mor.jpg") center no-repeat;
+  background-size: cover;
+  display: inline-block;
+}
+
+.pic2 {
+  background: url("../images/flatbread.jpg") center no-repeat;
+  background-size: cover;
+  display: inline-block;
+}
+
+.pic3 {
+  background: url("../images/citrus-salt.jpg") center no-repeat;
+  background-size: cover;
+  display: inline-block;
+}
+
+.upL{
+  width: 300px;
+  float: left;
+  /* padding-left: 12%; */
+}
+
+.upL li {
+  display: inline;
+  padding: 0 10px;
+}
+
+.upR {
+  width: 250px;
+  float: right;
+}
+
+.upR span {
+  display: none;
+}
+
+.upR li {
+  display: inline;
+}
+
+.search-bars {
+  display: inline-block;
+  padding-left: 15%;
+}
+
+.search-bars input {
+  display: inline-block;
+  float: left;
+  height: 45px;
+}
+
+.search-bars input{
+  width: 700px;
+}
+
+.submit {
+  background-color: rgb(211, 35, 35);
+  border-radius: 5px;
+  display: inline-block;
+  height: 45px;
+  width: 64px;
+}
+
+.submit:hover {
+  background-color: rgb(190, 32, 32);
+}
+
+.submit section {
+  display: block;
+  float: left;
+  margin-left: 30%;
+  margin-top: 10px;
+}
+
+.signUp{
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin-left: 10px;
+}
+
+.signUp:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(35, 30, 29, 1);
+  text-decoration: none;
+}
+
+.navButtons {
+  text-align: center;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+.navButtons li {
+  padding: 0 10px;
+}
+
+
+.navButtons li {
+  display: inline-block;
+}
+
+/*******************************************************************************
+============================MEDIA QUERIES=======================================
+*******************************************************************************/
+
+@media (min-width: 240px) and (max-width: 612px) {
+
+  header {
+    height: 320px;
+    background: url("../yelpMobile.jpg") center no-repeat;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+}
+
+
+  .fa-search {
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  .headerL {
+    height: 320px;
+  }
+
+  .logo{
+    height: auto;
+    width:120px;
+    padding-left: 31%;
+    padding-top: 10%;
+  }
+
+  .newBiz {
+    margin: 0;
+    width: 100%;
+  }
+
+  .newBiz h2 {
+    width: 100%;
+  }
+
+  .mobile-layer {
+    background-color: rgb(211, 35, 35);
+    display: inline-block;
+    width: 100%;
+    height: 45px;
+  }
+
+  .photo-credit {
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 0;
+  }
+
+  .restaurants {
+    margin: 0;
+    margin-left: 5%;
+  }
+
+  .restaurants:nth-of-type(1) {
+    margin-left: 5%;
+  }
+  .pic1,
+  .pic2,
+  .pic3 {
+
+  }
+
+  .search-bars {
+    width: 100%;
+    padding-left: 15%;
+  }
+
+  .search-bars input {
+    height: 35px;
+  }
+
+  .search-bars input:nth-of-type(1) {
+    width: 32%;
+  }
+
+  .search-bars input:nth-of-type(2) {
+    width: 27%;
+  }
+
+  .submit {
+    height: 35px;
+    width: 30px;
+  }
+
+  .navButtons{
+    display: none;
+  }
+
+  .upL {
+    display: none;
+  }
+
+  .upR {
+    background-color: rgb(211, 35, 35);
+    width: 100%;
+  }
+
+  .upR ul {
+    display: none;
+  }
+
+  .upR span {
+    display: inline;
+  }
+}
